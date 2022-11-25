@@ -1,0 +1,115 @@
+/* ESTILOS GENERALES*/
+
+* {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #F5F5F5;
+}
+
+.button {
+    background-color: #8B48BF;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0em 0.1em 0.4em 0.1em #888888;
+    color: white;
+    height: 44px;
+    width: 134px;
+}
+
+
+/* ESTILOS DE HEADER Y SECTION*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25px;
+    margin-top: 65px;
+    font-size: 13px;
+}
+
+header img {
+    width: 107px;
+    margin-left: 165px;
+}
+
+header nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header button {
+    width: 20%;
+    margin-right: 188px;
+}
+
+header a {
+    color: #242E52;
+    text-decoration: none;
+}
+
+.HeaderSection {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin: 100px 0px
+}
+
+.HeaderSection img {
+    margin-left: 180px;
+}
+
+.HeaderSection div {
+    margin-right: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 410px;
+}
+
+.HeaderSection h1 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0,35em;
+    color: #242E52;
+}
+
+.HeaderSection p {
+    color: black;
+    font-size: 17px;
+    margin: 28px 0px;
+}
+
+/*ESTILOS DE MAIN*/
+
+.purpleBar {
+    background-color: #8B48BF;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.purpleBar h2 {
+    background-color: #8B48BF;
+    width: 450px;
+    font-size: 37px;
+    font-weight: 500;
+}
+
+.purpleBar p { 
+    background-color: #8B48BF;
+    width: 450px;
+    font-size: 16px;    
+}
+
+.whiteButton {
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    border-radius: 50px;
+    box-shadow: 0em 0.1em 0.4em 0.1em #888888;
+    color: #8B48BF;
+    height: 44px;
+    width: 134px;
+}
