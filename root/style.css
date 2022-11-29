@@ -2,6 +2,10 @@
 
 * {
     font-family: 'Be Vietnam Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
     background-color: #F5F5F5;
 }
 
@@ -16,7 +20,7 @@
 }
 
 
-/* ESTILOS DE HEADER Y SECTION*/
+/* ESTILOS DE HEADER Y SECTION */
 
 header {
     display: flex;
@@ -33,7 +37,7 @@ header img {
 }
 
 header nav {
-    width: 40%;
+    width: 30%;
     display: flex;
     justify-content: space-around;
 }
@@ -48,18 +52,18 @@ header a {
     text-decoration: none;
 }
 
-.HeaderSection {
+.headerSection {
     display: flex;
     justify-content: space-around;
     align-items:center;
     margin: 100px 0px
 }
 
-.HeaderSection img {
+.headerSection img {
     margin-left: 180px;
 }
 
-.HeaderSection div {
+.headerSection div {
     margin-right: 180px;
     display: flex;
     flex-direction: column;
@@ -67,14 +71,14 @@ header a {
     width: 410px;
 }
 
-.HeaderSection h1 {
+.headerSection h1 {
     font-size: 50px;
     font-weight: 700;
     letter-spacing: -0,35em;
     color: #242E52;
 }
 
-.HeaderSection p {
+.headerSection p {
     color: black;
     font-size: 17px;
     margin: 28px 0px;
@@ -88,6 +92,7 @@ header a {
     display: flex;
     justify-content:center;
     align-items: center;
+    margin: 0px; 
 }
 
 .purpleBar h2 {
@@ -112,4 +117,165 @@ header a {
     color: #8B48BF;
     height: 44px;
     width: 134px;
+}
+
+.mainSection1 {
+    margin: 40px 154px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.numberCards {
+    display: flex;
+    font-size: 16px;
+    width: 520px;
+}
+
+.numberCardsButton {
+    background-color: #8B48BF;
+    color: white;
+    width: 70px;
+    height: 43px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 700;
+    margin-right: 23px;
+    
+}
+
+.numberCardsText {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.numberCardsText p {
+    color: #B3B2B7;
+    width: 400px;
+}
+
+.mainSection2 {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.mainSection2 h2{
+    margin: 97px;
+}
+
+.articleProfileCards {
+    display: flex;
+    margin: 0px 92px 60px;
+}
+
+.profileCards {
+    color: #B9B9C1;
+    background-color: #FAFAFA;
+    text-align: center;
+    width: 33%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileCards img {
+    position: relative;
+    top: -40px;
+    
+}
+
+.profileCards p {
+    margin: 0px 21px 25px 21px;
+    ;
+}
+
+.profileCards h4 {
+    color: #3F4868;
+    margin-top: 0;
+}
+
+.mainSection2 button {
+    margin-bottom: 180px;
+}
+
+/* ESTILOS DE FOOTER */
+
+footer {
+    height: 247px;
+    background-color: black;
+    color: white;
+    margin: 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerFooter {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    height: 133px;
+    width: 80%;
+}
+
+.footerCard1 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.logoFooter {
+    width: 107.68px;
+}
+
+.containerRRSS {
+    justify-content: end;
+}
+
+.footerCard2 {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerNav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.footerNav a {
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+
+.footerCard3 {
+    width:33%;
+}
+
+
+
+.copyright {
+    color: #8C8C94;
+    font-size: 13px;
+    text-align: end;
+    border: solid;
+    width: 80%;
+}
+
+/* MEDIA QUERY */
+
+@media screen  (max-width: 480px) {
+
+
 }
