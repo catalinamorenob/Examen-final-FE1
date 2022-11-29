@@ -209,7 +209,7 @@ header a {
 
 footer {
     height: 247px;
-    background-color: black;
+    background-color: #1E1E26;
     color: white;
     margin: 0px; 
     display: flex;
@@ -221,7 +221,6 @@ footer {
 .containerFooter {
     display: flex;
     flex-wrap: wrap;
-    border: solid;
     height: 133px;
     width: 80%;
 }
@@ -242,7 +241,7 @@ footer {
 }
 
 .footerCard2 {
-    width: 40%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
 }
@@ -260,16 +259,31 @@ footer {
 }
 
 .footerCard3 {
-    width:33%;
+    width:40%;
+    display: flex;
+    justify-content: end;
+    height: 44px;
 }
 
+.footerCard3 input {
+    width: 50%;
+    border-radius: 50px;
+    border: none;
+}
 
+.footerCard3 button {
+    background-color:  #8b48bf;
+    color: white;
+    width: 15%;
+    border-radius: 50px;
+    border: none;
+    margin-left: 9px;
+}
 
 .copyright {
     color: #8C8C94;
     font-size: 13px;
     text-align: end;
-    border: solid;
     width: 80%;
 }
 
